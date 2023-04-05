@@ -1,0 +1,38 @@
+--Incluindo seu email/name na config
+
+git config --global user.email "jgreyconsilva@gmail.com"
+git config --global user.name JonnySilva
+
+
+
+--removendo seu email/name
+
+git config --global --unset user.email
+
+git config --global --unset user.name
+
+
+
+--Como colocar os meus arquivos em staged 
+
+git add -a nome_arquivo
+
+git add .
+
+
+
+--Como enviar o arquivo para o servidor remote e necessario o comando abaixo
+
+git commit -m "mensagem de informação sobre o commit"
+
+e se for necessario enviar um arquivo ou pasta novas
+
+se faz necessario realizar o comando
+
+git push origin main
+
+
+
+--Saber o status do seu repository
+
+git status
