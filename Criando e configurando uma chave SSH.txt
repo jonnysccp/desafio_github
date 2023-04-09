@@ -1,8 +1,0 @@
-Criando uma shave publica SSH para o GITHUB
-
-1- acessar o git bash
-2- digitar o comando "ssh-keygen -t ed25519 -C seu_email"
-2.1- exemplo: "ssh-keygen -t ed25519 -C jgreyconsilva@gmail.com"
-3- com o comando cat id_ed25519.pub conseguimos vizualisar a nossa chave publica, vale lembrar que para executar o comando precisamos acessar a pasta onde está as chaves .pub pelo git bash
-4- acessando as pastas iremos executar o comando "eval $(ssh-agent -s)" para rodar o processo em segundo plano.
-5- com o comando ssh-add id_ed25519 adicionamos a nossa chave para o agent, vale lembrar que para executar o comando precisamos acessar a pasta onde está as chaves pelo git bash.
