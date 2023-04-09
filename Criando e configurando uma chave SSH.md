@@ -1,4 +1,4 @@
-###Criando uma chave publica SSH para o GITHUB###
+### Criando uma chave publica SSH para o GITHUB
 
 **Pergunta padrão: para quê ou por que configurar uma chave SSH. é uma forma de estabelecer uma conexão segura e incriptada entre duas maquinas no meu caso "minha maquina local x servidor github", além de ser uma forma mais segura trata-se de ser uma forma mais rápida para se autenticar. com certeza existe mas fatores positivo mas irei abordar apenas esses que eu identifiquei como os principais.**
 
